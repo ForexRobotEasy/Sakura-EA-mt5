@@ -1,0 +1,63 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                            Sakura EA MT5         |
+//|                             https://www.forexroboteasy.com       |
+//|                                      Developed by Forex Robot Easy Team|
+//+------------------------------------------------------------------+
+#property copyright 'Forex Robot Easy Team'
+#property link      'https://www.forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Add code for initialization here
+
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Add code for deinitialization here
+
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Add code for tick handling here
+
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Add code for trading here
+
+    // Implement classic trade strategy based on intraday trend levels
+
+    // Utilize Breakout strategy to generate profitable trades
+
+    // Ensure no risky strategies like martingale or grid systems are used
+
+    // Provide separate Stop Loss (SL) and Take Profit (TP) for each order
+
+    // Incorporate built-in News Filter function to block opening new orders during important news releases
+
+    // Safeguard traders from potential market volatility by avoiding unnecessary risks
+
+    // Provide options for traders to choose between fixed lot sizes or lot sizes proportional to account balance
+
+    // Implement risk and capital management regime
+
+}
+
+//+------------------------------------------------------------------+
